@@ -1,10 +1,10 @@
 import { FlatList, Text, View } from "react-native";
-import Flatlist from "../components/Flatlist";
+import Flaatlist from "../components/Flaatlist";
 
 const App = () => {
   return (
     <View>
-      <Flatlist />
+      <Flaatlist />
     </View>
   );
 };
