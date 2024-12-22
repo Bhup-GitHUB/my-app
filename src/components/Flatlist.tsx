@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Greet = () => {
+const Flatlist = () => {
   return (
     <View>
-      <Text>hello Groot</Text>
+      <Text>Flatlist</Text>
     </View>
   );
 };
 
-export default Greet;
+export default Flatlist;

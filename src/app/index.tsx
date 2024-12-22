@@ -1,11 +1,10 @@
-import { Text, View } from "react-native";
-import Greet from "../components/greet";
+import { FlatList, Text, View } from "react-native";
+import Flatlist from "../components/Flatlist";
 
 const App = () => {
   return (
     <View>
-      <Text>Hello</Text>
-      <Greet />
+      <Flatlist />
     </View>
   );
 };
