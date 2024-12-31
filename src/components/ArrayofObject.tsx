@@ -21,11 +21,12 @@ const ArrayofObject = () => {
   ];
 
   return (
+    //no need to use Fragment here
     <View>
       <FlatList
         keyExtractor={(item) => item.id.toString()}
         data={locations}
-        renderItem={({ item }) => {
+        renderItem={({ item }) => { 
           return (
             <View>
               <Text>{item.name}</Text>
